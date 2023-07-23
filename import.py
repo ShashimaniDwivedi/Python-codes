@@ -1,0 +1,3 @@
+import manas
+
+manas.welcome()
