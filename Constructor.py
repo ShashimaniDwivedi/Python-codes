@@ -1,14 +1,10 @@
-class Person:
-  name="Shashi"
-  occupation="Software Developer"
-  def __init__(self,name,occupation): #Constructor
-    self.name=name
-    self.occupation=occupation
-  def info(self):
-    print(f"{self.name} is a {self.occupation}")
-    
-    
-a=Person("Priya","HR")
-b=Person("Shashi","Developer")
-a.info()
-b.info()    
+class Rectangle:
+    # Constructor
+    def __init__(self, height, width):
+        self.height = height
+        self.width = width
+        print(f"A Rectangle is created with height {height} and width {width}")
+
+
+s1 = Rectangle(2, 4)
+s2 = Rectangle(5, 6)
